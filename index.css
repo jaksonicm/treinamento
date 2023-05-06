@@ -1,0 +1,36 @@
+
+@keyframes animação{
+    0%{transform:translateX(200%);
+        background-color: rgb(26, 61, 233);}
+    50%{
+        background-color: black;;}
+    100%{background-color: yellow;}
+
+}
+#jakson div:nth-child(1) {
+    width:200px;
+    height: 200px;
+    background-color: rgb(138, 152, 133);
+    animation-name: animação;
+    animation-duration: 6s;
+    margin: auto;  
+}
+#jakson div:nth-child(2){
+width:200px;
+height: 200px;
+background-color: rgb(132, 18, 18);
+animation-name: animação;
+animation-duration: 3s;
+ 
+}
+#jakson div:nth-child(3){
+width: 200px;
+height: 200px;
+margin-top: 10px;
+background-color: blue;   
+animation-name: animação;
+animation-duration: 2s;
+
+
+     
+    }
